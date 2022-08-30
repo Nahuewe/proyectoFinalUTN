@@ -13,11 +13,17 @@
 
 <br>
 
+<hr>
+
 <h2 align="center"> <u> Objetivo del proyecto. </u> </h2>
 
 <br>
 
 <h3> <strong> Crear una tienda de venta de videojuegos. Utilizando diferentes tecnologias para darle funcionalidad, estilo y un formato amigable para el usuario. </strong> </h3>
+
+<br>
+
+<hr>
 
 <h2 align="center"> <u> Capturas del proyecto. </u> </h2>
 
@@ -43,4 +49,4 @@
 
 <br>
 
-<img src="./img/screenshots/screen-3.jpg" alt="Foto 3"># proyectoFinalUTN
+<img src="./img/screenshots/screen-3.jpg" alt="Foto 3">
