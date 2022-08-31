@@ -49,4 +49,4 @@
 
 <br>
 
-<img src="./img/screenshots/screen-3.jpg" alt="Foto 3"># proyectoFinalUTN
+<img src="./img/screenshots/screen-3.jpg" alt="Foto 3">
