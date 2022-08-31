@@ -3,8 +3,8 @@ require(`dotenv`).config()
 const path = require(`path`)
 const mysql = require(`mysql2`)
 
-// const app = express()
-// const PORT = process.env.PORT || 8080
+const app = express()
+const PORT = process.env.PORT || 8080
 
 // Conexion de la DataBase
 // const conexion = mysql.createConnection({
