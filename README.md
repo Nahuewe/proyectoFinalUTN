@@ -1,5 +1,7 @@
 <h1 align="center"> <u> Proyecto final Diplomatura Web FullStack. </u> </h1>
 
+<h1 align="center"> <u> Creado por Nahuel Soria Parodi. </u> </h1>
+
 <h2 align="center"> <u> Tecnologias Utilizadas. </u> </h2>
 
 <br>
