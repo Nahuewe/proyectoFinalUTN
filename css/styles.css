@@ -963,9 +963,10 @@ footer .social img {
 	transition: all .4s ease-in-out;
 }
 
-.info svg:hover {
+.info svg:hover,
+.info svg:active,
+.info svg:focus {
 	transform: rotate(0deg)
-
 }
 
 /* ===== ANIMATION TEXT ===== */

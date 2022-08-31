@@ -148,6 +148,10 @@ function prodBox(catGame, tit) {
 
 				clearCart.addEventListener("click", () => {
 					window.location.href = "./pages/venta.html"
+					storageCart = [];
+					localStorage.clear();
+					contadorStorage();
+					activeCart();
 				});
 
 				miniCartList[0].appendChild(clearCart);
@@ -174,7 +178,7 @@ function prodBox(catGame, tit) {
 
 			addCart.addEventListener("click", () => {
 				if (localStorage.getItem(catGame[i].game) == null || localStorage.getItem(catGame[i].game) == undefined) {
-					modal("Producto agregado al carrito!");
+					modal("¡Producto agregado al carrito!");
 					localStorage.setItem(catGame[i].game, JSON.stringify(catGame[i]));
 					pushLocalStorage = JSON.parse(localStorage.getItem(catGame[i].game));
 					storageCart.push(pushLocalStorage);
