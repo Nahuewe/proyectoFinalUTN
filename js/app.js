@@ -25,7 +25,7 @@ conexion.connect((err) => {
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
-app.use(express.static(path.join(__dirname, `index.html`)))
+app.use(express.static(path.join(__dirname, `css`)))
 
 app.get(`/`, (req,res, next) => {
     res.render(`index`,{
